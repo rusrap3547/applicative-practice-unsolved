@@ -28,6 +28,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "tsc": "^2.0.4",
     "uninstall": "^0.0.0",
     "vitest": "^0.25.8"
   },
