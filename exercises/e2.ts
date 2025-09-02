@@ -4,12 +4,8 @@ import { data } from "../data/data";
 // Return an array of all Asteroids' names
 // Return example: ['name1', 'name2', ... , 'nameN']
 
-export function getAsteroidNames(data) {
-  const astroidNames: string[] = [];
-    data.astroids.forEach(name => {
-        astroidNames.push();
-    });
-    return astroidNames;
+export function getAsteroidNames(data: any) {
+  return data.asteroids.map((astroids:any) => astroids.name);
 }
 
 console.log(getAsteroidNames(data));
