@@ -35,5 +35,16 @@
   },
   "devDependencies": {
     "eslint": "^8.29.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rusrap3547/applicative-practice-unsolved.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rusrap3547/applicative-practice-unsolved/issues"
+  },
+  "homepage": "https://github.com/rusrap3547/applicative-practice-unsolved#readme"
 }
